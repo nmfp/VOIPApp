@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		1F3C46852056F0B10059C554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C46842056F0B10059C554 /* AppDelegate.swift */; };
-		1F3C46872056F0B10059C554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C46862056F0B10059C554 /* ViewController.swift */; };
+		1F3C46872056F0B10059C554 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C46862056F0B10059C554 /* HistoryController.swift */; };
 		1F3C468A2056F0B10059C554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C46882056F0B10059C554 /* Main.storyboard */; };
 		1F3C468C2056F0B10059C554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C468B2056F0B10059C554 /* Assets.xcassets */; };
 		1F3C468F2056F0B10059C554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C468D2056F0B10059C554 /* LaunchScreen.storyboard */; };
+		1F3C46992057232D0059C554 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C46982057232D0059C554 /* HistoryCell.swift */; };
+		1F3C469B205723D00059C554 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C469A205723D00059C554 /* BaseCell.swift */; };
+		1F3C469D2057543F0059C554 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C469C2057543F0059C554 /* MainTabBarController.swift */; };
+		1F3C46A2205758E70059C554 /* ContactListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C46A1205758E70059C554 /* ContactListController.swift */; };
+		1F3C46A520575B8B0059C554 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C46A420575B8B0059C554 /* CoreDataManager.swift */; };
+		1F561D16205F25F900574EFA /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F561D15205F25F900574EFA /* OnboardingController.swift */; };
+		1F561D18205F284F00574EFA /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F561D17205F284F00574EFA /* Page.swift */; };
+		1F561D1A205F289500574EFA /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F561D19205F289500574EFA /* PageCell.swift */; };
+		1F561D1C205F28FC00574EFA /* FirstPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F561D1B205F28FC00574EFA /* FirstPageCell.swift */; };
+		1F561D20205F4D2900574EFA /* OnBoardingControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F561D1F205F4D2900574EFA /* OnBoardingControllerDelegate.swift */; };
+		1F72C29F2058894400E66A58 /* VoipAppCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F72C29D2058894400E66A58 /* VoipAppCoreDataModel.xcdatamodeld */; };
+		1F72C2A42059DA6300E66A58 /* ContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F72C2A32059DA6300E66A58 /* ContactsManager.swift */; };
+		1F72C2A6205B2D6C00E66A58 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F72C2A5205B2D6C00E66A58 /* Extensions.swift */; };
+		1F72C2A8205B323E00E66A58 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F72C2A7205B323E00E66A58 /* ContactController.swift */; };
+		1F72C2AA205B394B00E66A58 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F72C2A9205B394B00E66A58 /* ContactCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F3C46812056F0B10059C554 /* VOIPApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOIPApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3C46842056F0B10059C554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F3C46862056F0B10059C554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F3C46862056F0B10059C554 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
 		1F3C46892056F0B10059C554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F3C468B2056F0B10059C554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F3C468E2056F0B10059C554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F3C46902056F0B10059C554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3C46982057232D0059C554 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		1F3C469A205723D00059C554 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		1F3C469C2057543F0059C554 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1F3C46A1205758E70059C554 /* ContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListController.swift; sourceTree = "<group>"; };
+		1F3C46A420575B8B0059C554 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		1F561D15205F25F900574EFA /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		1F561D17205F284F00574EFA /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		1F561D19205F289500574EFA /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		1F561D1B205F28FC00574EFA /* FirstPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageCell.swift; sourceTree = "<group>"; };
+		1F561D1F205F4D2900574EFA /* OnBoardingControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingControllerDelegate.swift; sourceTree = "<group>"; };
+		1F72C29E2058894400E66A58 /* VoipAppCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VoipAppCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		1F72C2A32059DA6300E66A58 /* ContactsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsManager.swift; sourceTree = "<group>"; };
+		1F72C2A5205B2D6C00E66A58 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1F72C2A7205B323E00E66A58 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		1F72C2A9205B394B00E66A58 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,69 @@
 		1F3C46832056F0B10059C554 /* VOIPApp */ = {
 			isa = PBXGroup;
 			children = (
+				1F72C2A22059DA4F00E66A58 /* Helpers */,
+				1F3C46A320575B770059C554 /* CoreData */,
+				1F3C469E2057577D0059C554 /* Model */,
+				1F3C4697205723190059C554 /* Views */,
+				1F3C4696205722FB0059C554 /* Controllers */,
 				1F3C46842056F0B10059C554 /* AppDelegate.swift */,
-				1F3C46862056F0B10059C554 /* ViewController.swift */,
 				1F3C46882056F0B10059C554 /* Main.storyboard */,
 				1F3C468B2056F0B10059C554 /* Assets.xcassets */,
 				1F3C468D2056F0B10059C554 /* LaunchScreen.storyboard */,
 				1F3C46902056F0B10059C554 /* Info.plist */,
 			);
 			path = VOIPApp;
+			sourceTree = "<group>";
+		};
+		1F3C4696205722FB0059C554 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C46862056F0B10059C554 /* HistoryController.swift */,
+				1F3C469C2057543F0059C554 /* MainTabBarController.swift */,
+				1F3C46A1205758E70059C554 /* ContactListController.swift */,
+				1F72C2A7205B323E00E66A58 /* ContactController.swift */,
+				1F561D15205F25F900574EFA /* OnboardingController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F3C4697205723190059C554 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C46982057232D0059C554 /* HistoryCell.swift */,
+				1F3C469A205723D00059C554 /* BaseCell.swift */,
+				1F72C2A9205B394B00E66A58 /* ContactCell.swift */,
+				1F561D19205F289500574EFA /* PageCell.swift */,
+				1F561D1B205F28FC00574EFA /* FirstPageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F3C469E2057577D0059C554 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F561D17205F284F00574EFA /* Page.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F3C46A320575B770059C554 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C46A420575B8B0059C554 /* CoreDataManager.swift */,
+				1F72C29D2058894400E66A58 /* VoipAppCoreDataModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		1F72C2A22059DA4F00E66A58 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1F72C2A32059DA6300E66A58 /* ContactsManager.swift */,
+				1F72C2A5205B2D6C00E66A58 /* Extensions.swift */,
+				1F561D1F205F4D2900574EFA /* OnBoardingControllerDelegate.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +221,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F3C46872056F0B10059C554 /* ViewController.swift in Sources */,
+				1F72C29F2058894400E66A58 /* VoipAppCoreDataModel.xcdatamodeld in Sources */,
+				1F72C2A8205B323E00E66A58 /* ContactController.swift in Sources */,
+				1F561D18205F284F00574EFA /* Page.swift in Sources */,
+				1F561D20205F4D2900574EFA /* OnBoardingControllerDelegate.swift in Sources */,
+				1F3C469B205723D00059C554 /* BaseCell.swift in Sources */,
+				1F3C46A2205758E70059C554 /* ContactListController.swift in Sources */,
+				1F3C46872056F0B10059C554 /* HistoryController.swift in Sources */,
+				1F561D1A205F289500574EFA /* PageCell.swift in Sources */,
+				1F561D1C205F28FC00574EFA /* FirstPageCell.swift in Sources */,
+				1F3C469D2057543F0059C554 /* MainTabBarController.swift in Sources */,
+				1F3C46992057232D0059C554 /* HistoryCell.swift in Sources */,
+				1F561D16205F25F900574EFA /* OnboardingController.swift in Sources */,
+				1F72C2A6205B2D6C00E66A58 /* Extensions.swift in Sources */,
+				1F3C46A520575B8B0059C554 /* CoreDataManager.swift in Sources */,
+				1F72C2A42059DA6300E66A58 /* ContactsManager.swift in Sources */,
+				1F72C2AA205B394B00E66A58 /* ContactCell.swift in Sources */,
 				1F3C46852056F0B10059C554 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +422,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F72C29D2058894400E66A58 /* VoipAppCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F72C29E2058894400E66A58 /* VoipAppCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 1F72C29E2058894400E66A58 /* VoipAppCoreDataModel.xcdatamodel */;
+			path = VoipAppCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1F3C46792056F0B10059C554 /* Project object */;
 }

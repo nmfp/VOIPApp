@@ -8,14 +8,30 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let userDefaults = UserDefaults.standard
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        if let _ = userDefaults.object(forKey: "firstTime") {
+            
+        }
+        else {
+            print("definindo o valor inicial")
+            userDefaults.set(true, forKey: "firstTime")
+        }
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        
+        ContactsManager.shared.loadContacts();
+        
+        let mainTabBarController = MainTabBarController()
+        window?.rootViewController = mainTabBarController
+        
         return true
     }
 
@@ -31,6 +47,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        let firstTime = userDefaults.bool(forKey: "firstTime")
+        if !firstTime {
+            ContactsManager.shared.loadContacts();
+        }
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
@@ -40,7 +60,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 
