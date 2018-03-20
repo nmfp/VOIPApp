@@ -154,53 +154,6 @@ class ContactController: UIViewController, UIImagePickerControllerDelegate, UINa
         emailLabel.anchor(top: voipAppNumberLabel.bottomAnchor, left: nameLabel.leftAnchor, bottom: nil, right: nil, paddingTop: 2, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 120, height: 50)
         
         emailTextField.anchor(top: emailLabel.topAnchor, left: emailLabel.rightAnchor, bottom: emailLabel.bottomAnchor, right: nameTextField.rightAnchor, paddingTop: 0, paddingLeft: 12, paddingBottom: 0, paddingRight: 0, width: 0, height: 0)
-        
-//        NSLayoutConstraint.activate([
-//            contactImageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 15),
-//            contactImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//            contactImageView.heightAnchor.constraint(equalToConstant: height),
-//            contactImageView.widthAnchor.constraint(equalToConstant: height),
-//
-//            nameLabel.topAnchor.constraint(equalTo: contactImageView.bottomAnchor, constant: 24),
-//            nameLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 12),
-//            nameLabel.heightAnchor.constraint(equalToConstant: 50),
-//            nameLabel.widthAnchor.constraint(equalToConstant: 100),
-//
-//            nameTextField.topAnchor.constraint(equalTo: nameLabel.topAnchor),
-//            nameTextField.leftAnchor.constraint(equalTo: nameLabel.rightAnchor, constant: 12),
-//            nameTextField.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -12),
-//            nameTextField.bottomAnchor.constraint(equalTo: nameLabel.bottomAnchor),
-//
-//            phoneNumberLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 2),
-//            phoneNumberLabel.leftAnchor.constraint(equalTo: nameLabel.leftAnchor),
-//            phoneNumberLabel.heightAnchor.constraint(equalToConstant: 50),
-//            phoneNumberLabel.widthAnchor.constraint(equalToConstant: 100),
-//
-//            phoneNumberTextField.topAnchor.constraint(equalTo: phoneNumberLabel.topAnchor),
-//            phoneNumberTextField.leftAnchor.constraint(equalTo: phoneNumberLabel.rightAnchor, constant: 12),
-//            phoneNumberTextField.rightAnchor.constraint(equalTo: nameTextField.rightAnchor),
-//            phoneNumberTextField.bottomAnchor.constraint(equalTo: phoneNumberLabel.bottomAnchor),
-//
-//            voipAppNumberLabel.topAnchor.constraint(equalTo: phoneNumberLabel.bottomAnchor, constant: 2),
-//            voipAppNumberLabel.leftAnchor.constraint(equalTo: nameLabel.leftAnchor),
-//            voipAppNumberLabel.heightAnchor.constraint(equalToConstant: 50),
-//            voipAppNumberLabel.widthAnchor.constraint(equalToConstant: 100),
-//
-//            voipAppTextField.topAnchor.constraint(equalTo: voipAppNumberLabel.topAnchor),
-//            voipAppTextField.leftAnchor.constraint(equalTo: voipAppNumberLabel.rightAnchor, constant: 12),
-//            voipAppTextField.rightAnchor.constraint(equalTo: nameTextField.rightAnchor),
-//            voipAppTextField.bottomAnchor.constraint(equalTo: voipAppNumberLabel.bottomAnchor),
-//
-//            emailLabel.topAnchor.constraint(equalTo: voipAppNumberLabel.bottomAnchor, constant: 2),
-//            emailLabel.leftAnchor.constraint(equalTo: nameLabel.leftAnchor),
-//            emailLabel.heightAnchor.constraint(equalToConstant: 50),
-//            emailLabel.widthAnchor.constraint(equalToConstant: 100),
-//
-//            emailTextField.topAnchor.constraint(equalTo: emailLabel.topAnchor),
-//            emailTextField.leftAnchor.constraint(equalTo: emailLabel.rightAnchor, constant: 12),
-//            emailTextField.rightAnchor.constraint(equalTo: nameTextField.rightAnchor),
-//            emailTextField.bottomAnchor.constraint(equalTo: emailLabel.bottomAnchor)
-//            ])
     }
     
     @objc func handleSelectPhoto() {

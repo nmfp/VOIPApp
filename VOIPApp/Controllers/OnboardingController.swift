@@ -109,8 +109,4 @@ class OnBoardingController: UIViewController, UICollectionViewDelegate, UICollec
     func handleDismiss() {
         self.dismiss(animated: true, completion: nil)
     }
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
 }
